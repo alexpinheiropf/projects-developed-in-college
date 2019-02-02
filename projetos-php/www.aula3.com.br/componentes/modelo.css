@@ -1,0 +1,29 @@
+@CHARSET "ISO-8859-1";
+body {
+	background-color: gray;
+}
+#cabecalho
+{
+	width: 90%;
+	height: 150px;
+	position: relative;
+	background-color: white;
+	margin: 0px auto;
+}
+#barramenu
+{
+	background-color:blue;
+	color: white;
+	width: 90%;
+	height: 40px;
+	position:relative;
+	margin: 0px auto;
+}
+.itemmenu{
+	width: 90px;
+	height: 40px;
+	border: 1px solid black;
+	margin-right:3px; 
+	float: left;
+}
+

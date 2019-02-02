@@ -1,0 +1,182 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD><meta content="Microsoft Visual Studio 7.0" name="GENERATOR" /><meta content="C#" name="CODE_LANGUAGE" /><meta content="JavaScript" name="vs_defaultClientScript" /><meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema" /><style>
+.infoBoxTop
+{
+  background-image : url(/Corpore.Net/SharedServices/Images/InfoBox_top.gif);
+  background-repeat : repeat-x;
+}
+.infoBoxBottom
+{
+  background-image : url(/Corpore.Net/SharedServices/Images/InfoBox_bottom.gif);
+  background-repeat : repeat-x;
+}
+.infoBoxLeft
+{
+  background-image : url(/Corpore.Net/SharedServices/Images/InfoBox_left.gif);
+  background-repeat : repeat-y;
+}
+.infoBoxRight
+{
+  background-image : url(/Corpore.Net/SharedServices/Images/InfoBox_right.gif);
+  background-repeat : repeat-y;
+}</style><title>
+	ErrorPage
+</title></HEAD>
+	<body id="bodyError">	
+		<form name="PaginaErro" method="post" action="../../../SharedServices/LibPages/ErrorPage.aspx" id="PaginaErro">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjA3NjU5NDAwNQ9kFgICAw9kFgICAQ9kFgICAg8WAh4Fc3R5bGUFJHdpZHRoOjEwMCU7aGVpZ2h0OjEwMCU7ZGlzcGxheTpub25lOxYCZg9kFgJmD2QWCAIBDxYCHgNzcmMFOS9Db3Jwb3JlLk5ldC9TaGFyZWRTZXJ2aWNlcy9JbWFnZXMvQm9yZGVyRXJyb3JUb3BMZWZ0LmdpZmQCAw8WAh8BBSwvQ29ycG9yZS5OZXQvU2hhcmVkU2VydmljZXMvSW1hZ2VzL2Vycm9yLmdpZmQCBw8WAh8BBTovQ29ycG9yZS5OZXQvU2hhcmVkU2VydmljZXMvSW1hZ2VzL0JvcmRlckVycm9yVG9wUmlnaHQuZ2lmZAIJD2QWCAIBDw8WAh4EVGV4dAWLAUNvdWxkIG5vdCBmaW5kIGZpbGUgJ0M6XENvcnBvcmVSTVxDb3Jwb3JlLk5ldFxTb3VyY2VcRWR1LUVkdWNhY2lvbmFsXFJNLkVEVS5NQVRFUklBSVNcTWF0ZXJpYWlzXDIwMTQzNV8yMzQzNF9MT0dJQ0FfTGlzdGFBbGdvcml0aW1vczIuZG9jJy5kZAIDDxYCHgV2YWx1ZQUJPDwgVm9sdGFyZAIEDxYEHwMFC0RldGFsaGVzID4+HgdvbmNsaWNrBRNTaG93RXJyb3JEZXRhaWxzKCk7ZAIGDw9kFgIfAAUNZGlzcGxheTpub25lOxYGAgMPZBYCAgEPDxYCHwIFpQEvQ29ycG9yZS5OZXQvU291cmNlL0VkdS1FZHVjYWNpb25hbC9STS5FRFUuQ09OVFJPTFMvRWR1RG93bmxvYWRBcnF1aXZvV2ViRm9ybS5hc3B4P29iamVjdD1FZHVXZWJNYXRlcmlhbFNlY0RhdGEma2V5PTIzMDQ2JTNiMjAxNDM1XzIzNDM0X0xPR0lDQV9MaXN0YUFsZ29yaXRpbW9zMi5kb2NkZAIHD2QWAgIBDw8WAh8CBaQBW0ZpbGVOb3RGb3VuZEV4Y2VwdGlvbjogQ291bGQgbm90IGZpbmQgZmlsZSAnQzpcQ29ycG9yZVJNXENvcnBvcmUuTmV0XFNvdXJjZVxFZHUtRWR1Y2FjaW9uYWxcUk0uRURVLk1BVEVSSUFJU1xNYXRlcmlhaXNcMjAxNDM1XzIzNDM0X0xPR0lDQV9MaXN0YUFsZ29yaXRpbW9zMi5kb2MnLl1kZAILD2QWAgIBDw8WAh8CBd8GICAgYXQgU3lzdGVtLklPLl9fRXJyb3IuV2luSU9FcnJvcihJbnQzMiBlcnJvckNvZGUsIFN0cmluZyBtYXliZUZ1bGxQYXRoKQ08YnI+ICAgYXQgU3lzdGVtLklPLkZpbGVTdHJlYW0uSW5pdChTdHJpbmcgcGF0aCwgRmlsZU1vZGUgbW9kZSwgRmlsZUFjY2VzcyBhY2Nlc3MsIEludDMyIHJpZ2h0cywgQm9vbGVhbiB1c2VSaWdodHMsIEZpbGVTaGFyZSBzaGFyZSwgSW50MzIgYnVmZmVyU2l6ZSwgRmlsZU9wdGlvbnMgb3B0aW9ucywgU0VDVVJJVFlfQVRUUklCVVRFUyBzZWNBdHRycywgU3RyaW5nIG1zZ1BhdGgsIEJvb2xlYW4gYkZyb21Qcm94eSwgQm9vbGVhbiB1c2VMb25nUGF0aCwgQm9vbGVhbiBjaGVja0hvc3QpDTxicj4gICBhdCBTeXN0ZW0uSU8uRmlsZVN0cmVhbS4uY3RvcihTdHJpbmcgcGF0aCwgRmlsZU1vZGUgbW9kZSwgRmlsZUFjY2VzcyBhY2Nlc3MsIEZpbGVTaGFyZSBzaGFyZSwgSW50MzIgYnVmZmVyU2l6ZSwgRmlsZU9wdGlvbnMgb3B0aW9ucywgU3RyaW5nIG1zZ1BhdGgsIEJvb2xlYW4gYkZyb21Qcm94eSkNPGJyPiAgIGF0IFN5c3RlbS5JTy5GaWxlU3RyZWFtLi5jdG9yKFN0cmluZyBwYXRoLCBGaWxlTW9kZSBtb2RlLCBGaWxlQWNjZXNzIGFjY2VzcykNPGJyPiAgIGF0IEVkdURvd25sb2FkQXJxdWl2b1dlYkZvcm0uT25Jbml0KEV2ZW50QXJncyBlKQ08YnI+ICAgYXQgU3lzdGVtLldlYi5VSS5Db250cm9sLkluaXRSZWN1cnNpdmUoQ29udHJvbCBuYW1pbmdDb250YWluZXIpDTxicj4gICBhdCBTeXN0ZW0uV2ViLlVJLlBhZ2UuUHJvY2Vzc1JlcXVlc3RNYWluKEJvb2xlYW4gaW5jbHVkZVN0YWdlc0JlZm9yZUFzeW5jUG9pbnQsIEJvb2xlYW4gaW5jbHVkZVN0YWdlc0FmdGVyQXN5bmNQb2ludClkZGRZVjWiuJ7Xeg4zCfpbK17ugwYfBWztXHCjQH372jDD9A==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['PaginaErro'];
+if (!theForm) {
+    theForm = document.PaginaErro;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/Corpore.Net/WebResource.axd?d=tr_x1CXPOcXYGJzm5mgxLum2RGrQen_qApVb9U-hrHNIEALjVRx8uzoylMLgsEd7ZQdAwu_33OtZJ0S1-w9iTHChsTsHeyRoNCtSV3J9B_A1&amp;t=635195529660000000" type="text/javascript"></script>
+
+<script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/comum.js?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/browserutils.js?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/windowutils.js?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/disableentersubmit.js?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/prototypeutils.js?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/mozilla.js?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/rmwjsresource.js.aspx?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/textbox.js?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/rmwjsservervariables.js.aspx?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/asyncservices.js?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/page.js?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/errorpage.js?version=25_08_2014"></script><LINK href="/Corpore.Net/sharedservices/styles/modalpanelcontrol.css" type="text/css" rel="stylesheet"><script language='javascript'>var RMWUrlBase = '/Corpore.Net/';</script><script language='javascript'>var SUBMIT_LOADING_MESSAGE = 'Aguarde...';</script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/boolean.js?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/tabsheetpanel.js?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/controlutils.js?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/cookie.js?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/tabsheet.js?version=25_08_2014"></script><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/pagecustom.js?version=25_08_2014"></script><LINK href="/Corpore.Net/sharedservices/styles/default.css" type="text/css" rel="stylesheet"><script language="JavaScript" charset="ISO-8859-1" src="/Corpore.Net/sharedservices/clientscripts/rmwpanel.js?version=25_08_2014"></script>
+<script src="/Corpore.Net/ScriptResource.axd?d=4vRHgmR6GX77UbSUjBFII-ndF4ppqhlT2fy7UiDi4xb4cFRvrH4xWgpf4xe1vEnDehfiJhiRUwmXT661E2T4g3K66X6SpAUZteH-y7N4Q-WC_qobmm1GFb2Kale5_WDWI-Z6zIkyrGPubsBjte-G7OzKcY61Xy63gS1cN1JLikkZVrF2-WH8zu-_dqXQqcCd0&amp;t=ca758f3" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/Corpore.Net/ScriptResource.axd?d=s_05XXYuDzkZgjpzMsRZgRe9KpRMD7BCiGqp1J_RUoTiAmj6EHXvBa8dVs2oHhcia45YD5WBDgE-JMXlMzL4Trw0gI16cljL0U4rpTQ6S-zlBzRO119ulwpfArgt_kCbXBwKHTkZqpMc9mA0-qo5OOtvm4cZ2UKXd031l06B2Ck-VSeI8kB8Z4eIPQhMyWeV0&amp;t=ca758f3" type="text/javascript"></script>
+<script src="/Corpore.Net/SharedServices/ClientScripts/RM_Lib_WebForms.js" type="text/javascript"></script><script language="JavaScript" charset="ISO-8859-1">var OnLoadFunctions = "ConfigBackButton('btnVoltar');"</script><script language="JavaScript" charset="ISO-8859-1">var OnSubmitFunctions = ""</script><script language="JavaScript" charset="ISO-8859-1">var ServerLoadedControllerId = 'serverLoadedController';</script>
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAANXZS/CingGd3bCoUDUd9W41H+hrYZIOZ3ewYWe794bUsD12ih299Ug3TJe0L/rGTZnedWtDugVGTl/GDX/WX+UCn/vIaM5Z6+ApjnRE1i1bg==" />
+</div><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl07', 'PaginaErro', [], [], [], 90, '');
+//]]>
+</script>
+				
+		<table id="tableContainerError" style="width:100%;height:100%;display:none;">
+	<tr>
+		<td style="padding:3px;">
+		        <table cellpadding="0" cellspacing="0" style="width:100%; height:100%;" >
+		            <tr>
+		                <td style="width:100%" >
+		                    <table style="width:100%" cellpadding="0" cellspacing="0">
+		                        <tr>
+		                            <td><img src="/Corpore.Net/SharedServices/Images/BorderErrorTopLeft.gif" id="imgTopLeft" /></td>
+		                            <td style="border-top:solid 1px #CFD5EE; border-bottom:solid 1px #CFD5EE;
+		                            background-color:#E6E7FB;width:100%">
+		                            <table cellpadding="0" cellspacing="0">
+		                                <tr>
+		                                    <td><img src="/Corpore.Net/SharedServices/Images/error.gif" id="imgError" /></td>
+		                                    <td style="width:100%; font-size:x-large;color:Red;font-weight:bold;
+		                                    font-family:Verdana; vertical-align:middle;padding-left:15px">
+		                                        <span id="lblErro">Erro</span>        
+		                                    </td>
+		                                </tr>
+		                            </table>	                                
+		                            </td>
+		                            <td><img src="/Corpore.Net/SharedServices/Images/BorderErrorTopRight.gif" id="imgTopRight" /></td>
+		                        </tr>
+		                    </table>
+		                </td>
+		            </tr>
+		            <tr>
+		                <td valign="top" style="width:100%; height:100%; border:solid 1px #CFD5EE;border-top:none;" >		                
+		                  <div id="pnError" style="height:100%; width:100%;">
+			
+		                    <table cellpadding="0" cellspacing="0" style="width:100%; height:100%;">
+		                      <tr>
+		                        <td style="padding:4px;">
+	                            <table cellpadding="0" cellspacing="0" style="width:100%; height:100%;">
+	                              <tr>
+	                                <td style="border:solid 1px #CFD5EE;padding:4px">
+	                                  <span id="lbErrorDesc" style="color:Red;font-family:Verdana;font-size:10pt;font-weight:bold;">Could not find file 'C:\CorporeRM\Corpore.Net\Source\Edu-Educacional\RM.EDU.MATERIAIS\Materiais\201435_23434_LOGICA_ListaAlgoritimos2.doc'.</span>
+	                                </td>
+	                              </tr>
+	                              <tr>
+	                                <td style="padding: 10px 0px 10px 0px;">
+			                              <input name="btnVoltar" type="button" id="btnVoltar" value="&lt;&lt; Voltar" /><input name="btnDetails" type="button" id="btnDetails" value="Detalhes >>" onclick="ShowErrorDetails();" /></td><!--donotlocalize-->
+	                              </tr>
+	                              <tr>
+	                                <td style="height:100%; border:solid 1px #CFD5EE;" valign="top">
+			                              <div id="pnDetails" style="display:none;">
+				
+			                              <table cellpadding="4" cellspacing="0" style="width:100%; height:100%;">
+			                                <tr>
+			                                  <td>
+    				                              <span id="lbErrorPage" style="font-family:Verdana;font-size:10pt;font-weight:bold;">Página de erro</span>
+			                                  </td>
+			                                </tr>				                
+			                                <tr>
+			                                  <td id="pnErrorPage" style="border:solid 1px #CFD5EE; border-left: none; border-right: none; background-color:#FFFFFF;">
+			                                    <span id="lbErrorPageDesc" style="font-family:Verdana;font-size:8pt;">/Corpore.Net/Source/Edu-Educacional/RM.EDU.CONTROLS/EduDownloadArquivoWebForm.aspx?object=EduWebMaterialSecData&key=23046%3b201435_23434_LOGICA_ListaAlgoritimos2.doc</span>
+			                                  </td>
+				
+			                                </tr>				                
+			                                <tr>
+			                                  <td style=" padding-top: 10px;">
+    				                              <span id="lbTec" style="color:#333333;font-family:Verdana;font-size:10pt;font-weight:bold;">Descrição técnica</span>
+			                                  </td>
+			                                </tr>				                
+			                                <tr>
+			                                  <td id="pnTecDesc" style="border:solid 1px #CFD5EE; border-left: none; border-right: none; background-color:#FFFFFF;">
+  					                              <span id="lbTecDesc" style="font-family:Verdana;font-size:8pt;">[FileNotFoundException: Could not find file 'C:\CorporeRM\Corpore.Net\Source\Edu-Educacional\RM.EDU.MATERIAIS\Materiais\201435_23434_LOGICA_ListaAlgoritimos2.doc'.]</span>
+			                                  </td>
+				
+			                                </tr>				                
+			                                <tr>
+			                                  <td style=" padding-top: 10px;">
+                                          <span id="lbStackTrace" style="color:#333333;font-family:Verdana;font-size:10pt;font-weight:bold;">Stack Trace</span>
+			                                  </td>
+			                                </tr>				                
+			                                <tr>
+			                                  <td id="pnStackTrace" style="border-top:solid 1px #CFD5EE;background-color:#FFFFFF;">
+                                          <span id="lbStackTraceDesc" style="font-family:Verdana;font-size:8pt;">   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)<br>   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)<br>   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)<br>   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)<br>   at EduDownloadArquivoWebForm.OnInit(EventArgs e)<br>   at System.Web.UI.Control.InitRecursive(Control namingContainer)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</span>    
+			                                  </td>
+				
+			                                </tr>
+			                                <tr><td style="height:100%;">&nbsp;</td></tr>		                
+			                              </table>
+			                              
+			</div>				
+	                                </td>
+	                              </tr>
+	                            </table>
+		                        </td>
+		                      </tr>
+		                    </table>
+			                
+		</div>
+		                </td>
+		            </tr>
+		        </table>
+		    </td>
+	</tr>
+</table>
+		
+		
+
+<script type="text/javascript">
+//<![CDATA[
+RMWShowMessageInModalPopup = true;//]]>
+</script>
+<script>RM.Lib.WebForms.DivOverflowUtils._mainContainerDiv = { overflowMode : RM.Lib.WebForms.DivOverflowMode.Both, element: $get('pnDetails')};</script><script>$addHandler(window, 'load', function() {ShowErrorMessage('Could not find file \'C:\\CorporeRM\\Corpore.Net\\Source\\Edu-Educacional\\RM.EDU.MATERIAIS\\Materiais\\201435_23434_LOGICA_ListaAlgoritimos2.doc\'.','MODAL','pnDetails');});</script></form>
+	</body>
+</HTML>
+<input name="serverLoadedController" type="hidden" id="serverLoadedController" value="TRUE" />

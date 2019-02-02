@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-image: url("../imagens/bg1.jpg");
+}
+#container{
+	width: 90%;
+	min-height: 300px;
+	margin: 0px auto;
+	position: relative;
+	border: 1px solid white;
+}
+#header{
+	width: 100%;
+	background: white;
+	height: 80px;	
+}
+#menu{
+	width: 100%;
+	height: 40px;
+	border: 1px solid blue;
+}
+.itemmenu{
+	width: 90px;
+	height: 36px;
+	border: 1px solid white;
+	margin-top: 2px;
+	float: left;
+	color: white;
+	text-align: center;	
+}
+.itemmenu a{
+	color: white;
+}
+.itemmenu a:hover{
+	font-size: 12;
+	background-color: orange;
+}
+#work
+{
+	width: 100%;
+	background-color: white;
+	min-height: 300px;
+}
+#footer{
+	width: 100%;
+	background: gray;
+	text-align: center;
+}
